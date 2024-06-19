@@ -1,11 +1,14 @@
+import Header from "./components/Header"
+import Services from "./components/Services"
+import Footer from "./components/Footer"
 import Message from "./Message"
 let App = ()=>{
 
     return <div>
-            <h2>Welcome to React world</h2>
-            <hr />
-            <Message/>
-          
+                <Header/>
+                <Services/>
+                <Footer/>
+                <Message/>
             </div>
 }
 
