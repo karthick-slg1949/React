@@ -38,13 +38,13 @@
 
 import React from 'react';
 // import Message1 from './Message1';
-import C_Counter from './C_Counter';
+import Message_for from './Message_for';
 const App = () => {
     return (
         <div>
             <h1>App component</h1>
             <hr/>
-            <C_Counter />
+            <Message_for />
         </div>
     );
 }
